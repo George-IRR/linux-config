@@ -10,3 +10,8 @@ A technical record of system modifications and hardware-specific configurations 
       * Direct systemd integration for boot-time power management.
   * [02: Shell Aliases for Battery Control](./huawei-configs/02_HUAWEI_ALIASES.md)
       * Interactive commands for real-time profile switching.
+
+### Performance Optimizations
+
+  * [03: ZRAM Configuration](./system-optimizations/03_ZRAM_CONFIG.md)
+      * Implementation of compressed RAM swap to eliminate slow disk writes.
