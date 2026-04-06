@@ -15,3 +15,5 @@ A technical record of system modifications and hardware-specific configurations 
 
   * [03: ZRAM Configuration](./system-optimizations/03_ZRAM_CONFIG.md)
       * Implementation of compressed RAM swap to eliminate slow disk writes.
+  * [04: Rclone VFS Mount Configuration](./system-optimizations/04_RCLONE_VFS_MOUNT.md)
+      * Systemd integration for high-performance cloud storage mounting with optimized metadata caching.
