@@ -17,7 +17,9 @@ A technical record of system modifications and hardware-specific configurations 
       * Implementation of compressed RAM swap to eliminate slow disk writes.
   * [04: Rclone VFS Mount Configuration](./system-optimizations/04_RCLONE_VFS_MOUNT.md)
       * Systemd integration for high-performance cloud storage mounting with optimized metadata caching.
-
+  * [06: Swappiness Optimization](./system-optimizations/06_SWAPPINESS_CONFIG.md)
+      * Reducing disk write frequency to extend SSD lifespan and improve responsiveness.
+      
 ### System Administration
 
   * [05: Systemd Service Management](./system-administration/05_SYSTEMD_MANAGEMENT.md)
