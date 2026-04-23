@@ -30,7 +30,10 @@ Implementation of Docker Community Edition via official repositories and configu
 
 ## Privilege Escalation Bypass
 
-The Docker daemon binds to a Unix socket owned by the root user. Modify system groups to execute containers without `sudo`.
+The Docker daemon binds to a Unix socket owned by the root user. Standard execution without privileges triggers the following failure signature:
+`permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock`
+
+Modify system groups to authorize container execution without `sudo`.
 
 1.  Initialize target group:
     ```bash
