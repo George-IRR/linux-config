@@ -33,3 +33,7 @@ A technical record of system modifications and hardware-specific configurations 
       * Heap memory limit configuration for `.jar` executables.
   * [09: AppImageLauncher Configuration](./software-management/09_APPIMAGE_LAUNCHER.md)
       * System integration protocol for portable `.AppImage` execution.
+  * [10: Docker Engine Configuration](./software-management/10_DOCKER_ENGINE.md)
+      * Official repository integration, installation, and socket permission management.
+  * [11: Docker Management Interfaces](./software-management/11_DOCKER_INTERFACES.md)
+      * Deployment of Portainer (Web UI) and Lazydocker (TUI) for container orchestration.
