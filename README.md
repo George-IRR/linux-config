@@ -24,3 +24,12 @@ A technical record of system modifications and hardware-specific configurations 
 
   * [05: Systemd Service Management](./system-administration/05_SYSTEMD_MANAGEMENT.md)
       * Essential commands for monitoring, restarting, and troubleshooting background services.
+
+### Software Management
+
+  * [07: Flatpak Setup](./software-management/07_FLATPAK_SETUP.md)
+      * Containerized application isolation, repository installation, and command alias mapping.
+  * [08: Java Memory Allocation](./software-management/08_JAVA_MEMORY.md)
+      * Heap memory limit configuration for `.jar` executables.
+  * [09: AppImageLauncher Configuration](./software-management/09_APPIMAGE_LAUNCHER.md)
+      * System integration protocol for portable `.AppImage` execution.
