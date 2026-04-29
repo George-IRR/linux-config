@@ -24,6 +24,8 @@ A technical record of system modifications and hardware-specific configurations 
 
   * [05: Systemd Service Management](./system-administration/05_SYSTEMD_MANAGEMENT.md)
       * Essential commands for monitoring, restarting, and troubleshooting background services.
+  * [13: Taskbar Performance Monitoring](./system-administration/13_TASKBAR_MONITORING.md)
+      * GUI-based integration for real-time CPU, RAM, and Network stats in the system taskbar.
 
 ### Software Management
 
@@ -37,3 +39,5 @@ A technical record of system modifications and hardware-specific configurations 
       * Official repository integration, installation, and socket permission management.
   * [11: Docker Management Interfaces](./software-management/11_DOCKER_INTERFACES.md)
       * Deployment of Portainer (Web UI) and Lazydocker (TUI) for container orchestration.
+  * [12: Essential Utility Library](./software-management/12_USEFUL_APPS.md)
+      * Collection of standard productivity and development tools installed via apt.
