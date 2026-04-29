@@ -16,7 +16,8 @@ sudo apt update && sudo apt install -y \
   curl \
   git \
   build-essential \
-  net-tools
+  net-tools \
+  qpdf
 ```
 
 ## Application Overview
@@ -28,3 +29,4 @@ sudo apt update && sudo apt install -y \
 * **htop**: An interactive terminal-based process viewer (CLI alternative to system monitors).
 * **curl & git**: Standard command-line tools for data transfer and version control.
 * **build-essential**: Meta-package containing the compiler (gcc/g++) and tools required for building software from source.
+* **qpdf**: A powerful command-line tool for structural PDF transformations, including encryption, decryption, merging, and linearization (optimization for web viewing).
