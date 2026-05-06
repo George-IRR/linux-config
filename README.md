@@ -37,3 +37,13 @@ A technical record of system modifications and hardware-specific configurations 
       * Official repository integration, installation, and socket permission management.
   * [11: Docker Management Interfaces](./software-management/11_DOCKER_INTERFACES.md)
       * Deployment of Portainer (Web UI) and Lazydocker (TUI) for container orchestration.
+
+### Backup & Disaster Recovery
+  * [12: Hardened Multipart Backup Configurations](./backup-operations/12_HARDENED_MULTIPART.md)
+      * Implementation of chunked, encrypted, and deduplicated archives with fail-safe mechanisms for container data.
+  * [13: Data Restoration & Time Travel](./backup-operations/13_RESTORATION_PROTOCOLS.md)
+      * Protocols for extracting metadata-accurate files and executing point-in-time rollbacks.
+  * [14: Archive Integrity Verification](./backup-operations/14_INTEGRITY_VERIFICATION.md)
+      * Deep-scanning methodologies for multipart archives and pre-backup size estimations.
+  * [15: Timestamp & Timeline Analysis](./backup-operations/15_TIMELINE_ANALYSIS.md)
+      * Advanced querying techniques for auditing file ages and finding specific archive versions across time.
