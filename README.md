@@ -19,13 +19,15 @@ A technical record of system modifications and hardware-specific configurations 
       * Systemd integration for high-performance cloud storage mounting with optimized metadata caching.
   * [06: Swappiness Optimization](./system-optimizations/06_SWAPPINESS_CONFIG.md)
       * Reducing disk write frequency to extend SSD lifespan and improve responsiveness.
-  * [17: PipeWire Audio Buffer Optimization](./system-optimizations/17_PIPEWIRE_BUFFER_FIX.md)
+  * [19: PipeWire Audio Buffer Optimization](./system-optimizations/19_PIPEWIRE_BUFFER_FIX.md)
       * Persistent configuration override to stabilize audio quantum limits and eliminate lag.
 
 ### System Administration
 
   * [05: Systemd Service Management](./system-administration/05_SYSTEMD_MANAGEMENT.md)
       * Essential commands for monitoring, restarting, and troubleshooting background services.
+  * [13: Taskbar Performance Monitoring](./system-administration/13_TASKBAR_MONITORING.md)
+      * GUI-based integration for real-time CPU, RAM, and Network stats in the system taskbar.
 
 ### Software Management
 
@@ -39,15 +41,18 @@ A technical record of system modifications and hardware-specific configurations 
       * Official repository integration, installation, and socket permission management.
   * [11: Docker Management Interfaces](./software-management/11_DOCKER_INTERFACES.md)
       * Deployment of Portainer (Web UI) and Lazydocker (TUI) for container orchestration.
+  * [12: Essential Utility Library](./software-management/12_USEFUL_APPS.md)
+      * Collection of standard productivity and development tools installed via apt.
 
 ### Backup & Disaster Recovery
-  * [12: Hardened Multipart Backup Configurations](./backup-operations/12_HARDENED_MULTIPART.md)
+  * [14: Hardened Multipart Backup Configurations](./backup-operations/14_HARDENED_MULTIPART.md)
       * Implementation of chunked, encrypted, and deduplicated archives with fail-safe mechanisms for container data.
-  * [13: Data Restoration & Time Travel](./backup-operations/13_RESTORATION_PROTOCOLS.md)
+  * [15: Data Restoration & Time Travel](./backup-operations/15_RESTORATION_PROTOCOLS.md)
       * Protocols for extracting metadata-accurate files and executing point-in-time rollbacks.
-  * [14: Archive Integrity Verification](./backup-operations/14_INTEGRITY_VERIFICATION.md)
+  * [16: Archive Integrity Verification](./backup-operations/16_INTEGRITY_VERIFICATION.md)
       * Deep-scanning methodologies for multipart archives and pre-backup size estimations.
-  * [15: Timestamp & Timeline Analysis](./backup-operations/15_TIMELINE_ANALYSIS.md)
+  * [17: Timestamp & Timeline Analysis](./backup-operations/17_TIMELINE_ANALYSIS.md)
       * Advanced querying techniques for auditing file ages and finding specific archive versions across time.
-  * [16: Automated Backup Scheduling](./backup-operations/16_BACKUP_AUTOMATION.md)`
+  * [18: Automated Backup Scheduling](./backup-operations/18_BACKUP_AUTOMATION.md)`
       * Systemd timer and service configurations for hands-free, scheduled container archiving and automated journal logging.
+
