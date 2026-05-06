@@ -1,4 +1,4 @@
-# 12: Hardened Multipart Backup Configurations
+# 01: Hardened Multipart Backup Configurations
 
 Documentation for creating highly compressed, chunked backups optimized for disaster recovery and safe cloud synchronization using `zpaqfranz`.
 

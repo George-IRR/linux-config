@@ -1,4 +1,4 @@
-# 15: Timestamp & Timeline Analysis
+# 04: Timestamp & Timeline Analysis
 
 Techniques for filtering files and backups using strict chronological parameters with `zpaqfranz`.
 

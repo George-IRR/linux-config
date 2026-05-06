@@ -1,4 +1,4 @@
-# 12: Essential Utility Library
+# 06: Essential Utility Library
 
 A collection of high-utility applications for media, development, and system customization. These packages are available via the standard Ubuntu repositories and can be deployed with a single command.
 

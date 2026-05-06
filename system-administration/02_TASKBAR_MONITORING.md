@@ -1,4 +1,4 @@
-# 13: Taskbar Performance Monitoring
+# 02: Taskbar Performance Monitoring
 
 This guide covers the implementation of real-time hardware telemetry (CPU, RAM, and Network speeds) directly in the GNOME top panel using the Extension Manager.
 

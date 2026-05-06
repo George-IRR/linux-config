@@ -13,46 +13,46 @@ A technical record of system modifications and hardware-specific configurations 
 
 ### Performance Optimizations
 
-  * [03: ZRAM Configuration](./system-optimizations/03_ZRAM_CONFIG.md)
+  * [01: ZRAM Configuration](./system-optimizations/01_ZRAM_CONFIG.md)
       * Implementation of compressed RAM swap to eliminate slow disk writes.
-  * [04: Rclone VFS Mount Configuration](./system-optimizations/04_RCLONE_VFS_MOUNT.md)
+  * [02: Rclone VFS Mount Configuration](./system-optimizations/02_RCLONE_VFS_MOUNT.md)
       * Systemd integration for high-performance cloud storage mounting with optimized metadata caching.
-  * [06: Swappiness Optimization](./system-optimizations/06_SWAPPINESS_CONFIG.md)
+  * [03: Swappiness Optimization](./system-optimizations/03_SWAPPINESS_CONFIG.md)
       * Reducing disk write frequency to extend SSD lifespan and improve responsiveness.
-  * [19: PipeWire Audio Buffer Optimization](./system-optimizations/19_PIPEWIRE_BUFFER_FIX.md)
+  * [04: PipeWire Audio Buffer Optimization](./system-optimizations/04_PIPEWIRE_BUFFER_FIX.md)
       * Persistent configuration override to stabilize audio quantum limits and eliminate lag.
 
 ### System Administration
 
-  * [05: Systemd Service Management](./system-administration/05_SYSTEMD_MANAGEMENT.md)
+  * [01: Systemd Service Management](./system-administration/01_SYSTEMD_MANAGEMENT.md)
       * Essential commands for monitoring, restarting, and troubleshooting background services.
-  * [13: Taskbar Performance Monitoring](./system-administration/13_TASKBAR_MONITORING.md)
+  * [02: Taskbar Performance Monitoring](./system-administration/02_TASKBAR_MONITORING.md)
       * GUI-based integration for real-time CPU, RAM, and Network stats in the system taskbar.
 
 ### Software Management
 
-  * [07: Flatpak Setup](./software-management/07_FLATPAK_SETUP.md)
+  * [01: Flatpak Setup](./software-management/01_FLATPAK_SETUP.md)
       * Containerized application isolation, repository installation, and command alias mapping.
-  * [08: Java Memory Allocation](./software-management/08_JAVA_MEMORY.md)
+  * [02: Java Memory Allocation](./software-management/02_JAVA_MEMORY.md)
       * Heap memory limit configuration for `.jar` executables.
-  * [09: AppImageLauncher Configuration](./software-management/09_APPIMAGE_LAUNCHER.md)
+  * [03: AppImageLauncher Configuration](./software-management/03_APPIMAGE_LAUNCHER.md)
       * System integration protocol for portable `.AppImage` execution.
-  * [10: Docker Engine Configuration](./software-management/10_DOCKER_ENGINE.md)
+  * [04: Docker Engine Configuration](./software-management/04_DOCKER_ENGINE.md)
       * Official repository integration, installation, and socket permission management.
-  * [11: Docker Management Interfaces](./software-management/11_DOCKER_INTERFACES.md)
+  * [05: Docker Management Interfaces](./software-management/05_DOCKER_INTERFACES.md)
       * Deployment of Portainer (Web UI) and Lazydocker (TUI) for container orchestration.
-  * [12: Essential Utility Library](./software-management/12_USEFUL_APPS.md)
+  * [06: Essential Utility Library](./software-management/06_USEFUL_APPS.md)
       * Collection of standard productivity and development tools installed via apt.
 
 ### Backup & Disaster Recovery
-  * [14: Hardened Multipart Backup Configurations](./backup-operations/14_HARDENED_MULTIPART.md)
+  * [01: Hardened Multipart Backup Configurations](./backup-operations/01_HARDENED_MULTIPART.md)
       * Implementation of chunked, encrypted, and deduplicated archives with fail-safe mechanisms for container data.
-  * [15: Data Restoration & Time Travel](./backup-operations/15_RESTORATION_PROTOCOLS.md)
+  * [02: Data Restoration & Time Travel](./backup-operations/02_RESTORATION_PROTOCOLS.md)
       * Protocols for extracting metadata-accurate files and executing point-in-time rollbacks.
-  * [16: Archive Integrity Verification](./backup-operations/16_INTEGRITY_VERIFICATION.md)
+  * [03: Archive Integrity Verification](./backup-operations/03_INTEGRITY_VERIFICATION.md)
       * Deep-scanning methodologies for multipart archives and pre-backup size estimations.
-  * [17: Timestamp & Timeline Analysis](./backup-operations/17_TIMELINE_ANALYSIS.md)
+  * [04: Timestamp & Timeline Analysis](./backup-operations/04_TIMELINE_ANALYSIS.md)
       * Advanced querying techniques for auditing file ages and finding specific archive versions across time.
-  * [18: Automated Backup Scheduling](./backup-operations/18_BACKUP_AUTOMATION.md)`
+  * [05: Automated Backup Scheduling](./backup-operations/05_BACKUP_AUTOMATION.md)
       * Systemd timer and service configurations for hands-free, scheduled container archiving and automated journal logging.
 
