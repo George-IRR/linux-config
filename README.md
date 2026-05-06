@@ -19,7 +19,9 @@ A technical record of system modifications and hardware-specific configurations 
       * Systemd integration for high-performance cloud storage mounting with optimized metadata caching.
   * [06: Swappiness Optimization](./system-optimizations/06_SWAPPINESS_CONFIG.md)
       * Reducing disk write frequency to extend SSD lifespan and improve responsiveness.
-      
+  * [17: PipeWire Audio Buffer Optimization](./system-optimizations/17_PIPEWIRE_BUFFER_FIX.md)
+      * Persistent configuration override to stabilize audio quantum limits and eliminate lag.
+
 ### System Administration
 
   * [05: Systemd Service Management](./system-administration/05_SYSTEMD_MANAGEMENT.md)
