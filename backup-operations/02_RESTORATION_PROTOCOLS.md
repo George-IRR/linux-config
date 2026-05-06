@@ -1,4 +1,4 @@
-# 13: Data Restoration & Time Travel
+# 02: Data Restoration & Time Travel
 
 Because `zpaqfranz` backups are immutable and incremental by default, the archive contains the entire history of the data. These commands handle standard extraction and historical rollbacks.
 

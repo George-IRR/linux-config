@@ -1,4 +1,4 @@
-# 07: Flatpak Setup
+# 01: Flatpak Setup
 
 System for installing and managing containerized applications. Eliminates dependency conflicts through application isolation (sandboxing).
 

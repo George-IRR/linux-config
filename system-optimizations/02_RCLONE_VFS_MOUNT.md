@@ -1,4 +1,4 @@
-# 04: Rclone VFS Mount Configuration
+# 02: Rclone VFS Mount Configuration
 
 This configuration mounts a remote cloud drive as a local file system using `rclone` and `systemd`. It utilizes a Virtual File System (VFS) cache strategy optimized for fast browsing (metadata retention) while minimizing local disk footprint.
 

@@ -1,4 +1,4 @@
-# 03: ZRAM Configuration (Ubuntu/Debian/Mint)
+# 01: ZRAM Configuration (Ubuntu/Debian/Mint)
 
 ZRAM creates a compressed swap device directly in RAM. Data is compressed in real-time, avoiding slow disk writes and reducing SSD wear.
 

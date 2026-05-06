@@ -1,4 +1,4 @@
-# 09: AppImageLauncher Configuration
+# 03: AppImageLauncher Configuration
 
 Utility for automatic integration of portable executables (`.AppImage`) into the desktop operating system.
 Reference: https://github.com/TheAssassin/AppImageLauncher

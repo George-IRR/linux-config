@@ -1,4 +1,4 @@
-# 14: Archive Integrity Verification
+# 03: Archive Integrity Verification
 
 Protocols for ensuring data health outside of the standard backup routine. Highly recommended for automated monthly cronjobs.
 

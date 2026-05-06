@@ -1,4 +1,4 @@
-# 17: PipeWire Audio Buffer Optimization
+# 04: PipeWire Audio Buffer Optimization
 
 Documentation for applying a persistent, full-override configuration to PipeWire to resolve audio latency ("lag") issues. This method bypasses drop-in directory prioritization issues by directly establishing a primary user-level configuration file.
 

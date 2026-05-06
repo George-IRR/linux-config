@@ -1,4 +1,4 @@
-# 08: Java Memory Allocation
+# 02: Java Memory Allocation
 
 Heap size limit control for `.jar` executables. Prevents sudden process termination (crashes) caused by RAM exhaustion (Out of Memory).
 
