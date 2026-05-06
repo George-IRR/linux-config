@@ -47,3 +47,5 @@ A technical record of system modifications and hardware-specific configurations 
       * Deep-scanning methodologies for multipart archives and pre-backup size estimations.
   * [15: Timestamp & Timeline Analysis](./backup-operations/15_TIMELINE_ANALYSIS.md)
       * Advanced querying techniques for auditing file ages and finding specific archive versions across time.
+  * [16: Automated Backup Scheduling](./backup-operations/16_BACKUP_AUTOMATION.md)`
+      * Systemd timer and service configurations for hands-free, scheduled container archiving and automated journal logging.
