@@ -1,4 +1,4 @@
-# 05: Systemd Service Management
+# 01: Systemd Service Management
 
 Systemd is the initialization system and service manager for Ubuntu. It is responsible for starting and managing background services, including custom optimizations like compressed swap (`zramswap`) and cloud mounts (`rclone-mount.service`).
 

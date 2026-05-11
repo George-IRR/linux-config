@@ -1,4 +1,4 @@
-# 06: Swappiness Optimization
+# 03: Swappiness Optimization
 
 This document describes the configuration of the `vm.swappiness` parameter to optimize how the system utilizes RAM and to protect the integrity of the SSD.
 
