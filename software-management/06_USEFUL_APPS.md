@@ -1,4 +1,4 @@
-# 12: Essential Utility Library
+# 06: Essential Utility Library
 
 A collection of high-utility applications for media, development, and system customization. These packages are available via the standard Ubuntu repositories and can be deployed with a single command.
 
@@ -16,7 +16,8 @@ sudo apt update && sudo apt install -y \
   curl \
   git \
   build-essential \
-  net-tools
+  net-tools \
+  qpdf
 ```
 
 ## Application Overview
@@ -28,3 +29,4 @@ sudo apt update && sudo apt install -y \
 * **htop**: An interactive terminal-based process viewer (CLI alternative to system monitors).
 * **curl & git**: Standard command-line tools for data transfer and version control.
 * **build-essential**: Meta-package containing the compiler (gcc/g++) and tools required for building software from source.
+* **qpdf**: A powerful command-line tool for structural PDF transformations, including encryption, decryption, merging, and linearization (optimization for web viewing).
