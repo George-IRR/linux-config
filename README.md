@@ -43,6 +43,8 @@ A technical record of system modifications and hardware-specific configurations 
       * Deployment of Portainer (Web UI) and Lazydocker (TUI) for container orchestration.
   * [06: Essential Utility Library](./software-management/06_USEFUL_APPS.md)
       * Collection of standard productivity and development tools installed via apt.
+  * [07: ModelSim ASE 20.1 Initialization & Scaling](./software-management/07_MODELSIM_UBUNTU_26.md)
+      * Resolution for 32-bit shared library dependency failures and HiDPI/4K UI scaling using a nested Weston compositor.
 
 ### Backup & Disaster Recovery
   * [01: Hardened Multipart Backup Configurations](./backup-operations/01_HARDENED_MULTIPART.md)
