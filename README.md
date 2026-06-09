@@ -57,4 +57,6 @@ A technical record of system modifications and hardware-specific configurations 
       * Advanced querying techniques for auditing file ages and finding specific archive versions across time.
   * [05: Automated Backup Scheduling](./backup-operations/05_BACKUP_AUTOMATION.md)
       * Systemd timer and service configurations for hands-free, scheduled container archiving and automated journal logging.
+  * [06: Immich Container Backup via Vorta](./backup-operations/06_IMMICH_VORTA_BACKUP.md)
+      * Automated database dumping and source selection for containerized photo library preservation.
 
