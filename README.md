@@ -29,6 +29,20 @@ A technical record of system modifications and hardware-specific configurations 
   * [02: Taskbar Performance Monitoring](./system-administration/02_TASKBAR_MONITORING.md)
       * GUI-based integration for real-time CPU, RAM, and Network stats in the system taskbar.
 
+### Server Infrastructure & Management
+
+  * [01: Active and Isolated Network Discovery](./server-management/01_SERVER_DISCOVERY.md)
+      * Methodologies for tracing target hardware over live subnets and unmanaged non-DHCP switch environments.
+  * [02: iRMC Interface Access & Legacy Cipher Troubleshooting](./server-management/02_IRMC_TROUBLESHOOTING.md)
+      * Bypassing modern router intercept vectors and tuning client-side TLS baselines for iRMC S2 chips.
+  * [03: Hardened SSH Infrastructure](./server-management/03_HARDENED_SSH_ACCESS.md)
+      * Transition protocols for asymmetric cryptographic validation, client alias profiles, and localized network firewalls.
+
+### Hardware Diagnostics & Recovery
+
+  * [01: POST Fault Analysis and Power Subsystem Mapping](./hardware-diagnostics/01_POST_FAULT_ANALYSIS.md)
+      * Decoupling critical POST code 0x28, memory subsystem isolation, and tracking power supply thermal cascading events.
+
 ### Software Management
 
   * [01: Flatpak Setup](./software-management/01_FLATPAK_SETUP.md)
@@ -59,4 +73,3 @@ A technical record of system modifications and hardware-specific configurations 
       * Systemd timer and service configurations for hands-free, scheduled container archiving and automated journal logging.
   * [06: Immich Container Backup via Vorta](./backup-operations/06_IMMICH_VORTA_BACKUP.md)
       * Automated database dumping and source selection for containerized photo library preservation.
-
