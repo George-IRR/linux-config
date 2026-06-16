@@ -21,6 +21,8 @@ A technical record of system modifications and hardware-specific configurations 
       * Reducing disk write frequency to extend SSD lifespan and improve responsiveness.
   * [04: PipeWire Audio Buffer Optimization](./system-optimizations/04_PIPEWIRE_BUFFER_FIX.md)
       * Persistent configuration override to stabilize audio quantum limits and eliminate lag.
+  * [05: AMD Renoir xHCI USB Controller Fix](./system-optimizations/05_AMD_RENOIR_USB_FIX.md)
+      * Mitigating kernel crashes and root hub lockups under multi-endpoint load.
 
 ### System Administration
 
