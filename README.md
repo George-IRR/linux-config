@@ -32,6 +32,12 @@ A technical record of system modifications and hardware-specific configurations 
       * GUI-based integration for real-time CPU, RAM, and Network stats in the system taskbar.
 
 ### Server Infrastructure & Management
+  * [04: Rclone Multi-Protocol Storage Servers](./server-management/04_RCLONE_SERVERS_SANDBOX.md)
+      * SQLite Alist purge, SFTP port isolation, and background system services configuration.
+  * [05: Google Drive API Hardening & Private Credentials](./server-management/05_GOOGLE_API_HARDENING.md)
+      * Dedicated OAuth Client ID setup, fixing URI mismatch errors, and daily limit matrix.
+  * [06: NFS and mDNS Resolution Recovery over Mesh Networks](./server-management/06_NFS_MDNS_MESH_RECOVERY.md)
+      * Fixing Stale Mount (`No such device`) errors caused by IP rotation in Mesh nodes using Avahi and nsswitch.
 
   * [01: Active and Isolated Network Discovery](./server-management/01_SERVER_DISCOVERY.md)
       * Methodologies for tracing target hardware over live subnets and unmanaged non-DHCP switch environments.
