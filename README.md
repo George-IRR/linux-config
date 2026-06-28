@@ -82,5 +82,6 @@ A technical record of system modifications and hardware-specific configurations 
   * [05: Automated Backup Scheduling](./backup-operations/05_BACKUP_AUTOMATION.md)
       * Systemd timer and service configurations for hands-free, scheduled container archiving and automated journal logging.
   * [06: Immich Container Backup via Vorta](./backup-operations/06_IMMICH_VORTA_BACKUP.md)
-      * Automated database dumping and source selection for containerized photo library preservation.  * [07: Hardened Direct-Stream Backups](./backup-operations/07_DIRECT_STREAM_BACKUPS.md)
+      * Automated database dumping and source selection for containerized photo library preservation.  
+  * [07: Hardened Direct-Stream Backups](./backup-operations/07_DIRECT_STREAM_BACKUPS.md)
       * Memory-efficient cloud streaming backups using rclone rcat and container pausing.
