@@ -46,6 +46,8 @@ A technical record of system modifications and hardware-specific configurations 
   * [03: Hardened SSH Infrastructure](./server-management/03_HARDENED_SSH_ACCESS.md)
       * Transition protocols for asymmetric cryptographic validation, client alias profiles, and localized network firewalls.
 
+  * [07: Tailscale, Vaultwarden, and Podman Optimization](./server-management/07_TAILSCALE_VAULTWARDEN_PODMAN.md)
+      * Optimization protocols for low-RAM machines.
 ### Hardware Diagnostics & Recovery
 
   * [01: POST Fault Analysis and Power Subsystem Mapping](./hardware-diagnostics/01_POST_FAULT_ANALYSIS.md)
@@ -80,4 +82,5 @@ A technical record of system modifications and hardware-specific configurations 
   * [05: Automated Backup Scheduling](./backup-operations/05_BACKUP_AUTOMATION.md)
       * Systemd timer and service configurations for hands-free, scheduled container archiving and automated journal logging.
   * [06: Immich Container Backup via Vorta](./backup-operations/06_IMMICH_VORTA_BACKUP.md)
-      * Automated database dumping and source selection for containerized photo library preservation.
+      * Automated database dumping and source selection for containerized photo library preservation.  * [07: Hardened Direct-Stream Backups](./backup-operations/07_DIRECT_STREAM_BACKUPS.md)
+      * Memory-efficient cloud streaming backups using rclone rcat and container pausing.
