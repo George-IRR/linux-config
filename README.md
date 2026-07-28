@@ -50,8 +50,10 @@ A technical record of system modifications and hardware-specific configurations 
       * Optimization protocols for low-RAM machines.
 ### Hardware Diagnostics & Recovery
 
-  * [01: POST Fault Analysis and Power Subsystem Mapping](./hardware-diagnostics/01_POST_FAULT_ANALYSIS.md)
+  * [01: POST Fault Analysis and Power Subsystem Mapping](https://www.google.com/search?q=./hardware-diagnostics/01_POST_FAULT_ANALYSIS.md)
       * Decoupling critical POST code 0x28, memory subsystem isolation, and tracking power supply thermal cascading events.
+  * [02: NVIDIA DKMS Kernel Build Failure & Resolution Fallback](https://www.google.com/search?q=./hardware-diagnostics/02_NVIDIA_DKMS_KERNEL_FAILURE.md)
+      * Resolving missing kernel headers, dpkg package dependency deadlocks, and software display rendering fallbacks on GTX 1060.
 
 ### Software Management
 
