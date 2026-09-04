@@ -87,7 +87,9 @@ A technical record of system modifications and hardware-specific configurations 
       * Automated database dumping and source selection for containerized photo library preservation.  
   * [07: Hardened Direct-Stream Backups](./backup-operations/07_DIRECT_STREAM_BACKUPS.md)
       * Memory-efficient cloud streaming backups using rclone rcat and container pausing.
-
+  * [08_SHOTCUT_HDR_10BIT_EXPORT.md](./software-management/08_SHOTCUT_HDR_10BIT_EXPORT.md)
+      * Shotcut 10-bit HLG HDR pipeline, AMD Vulkan tuning, and metadata remuxing.
+      
 ### iOS Device Management
   * [01_SIDESTORE_LIVECONTAINER.md](./ios-management/01_SIDESTORE_LIVECONTAINER.md)
       * Comprehensive sideloading infrastructure protocol for iOS 18.2, detailing Linux USB multiplexer conflict resolution, local VPN loopback parameters, and sandbox data preservation.
