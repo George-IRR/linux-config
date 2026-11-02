@@ -32,22 +32,24 @@ A technical record of system modifications and hardware-specific configurations 
       * GUI-based integration for real-time CPU, RAM, and Network stats in the system taskbar.
 
 ### Server Infrastructure & Management
-  * [04: Rclone Multi-Protocol Storage Servers](./server-management/04_RCLONE_SERVERS_SANDBOX.md)
-      * SQLite Alist purge, SFTP port isolation, and background system services configuration.
-  * [05: Google Drive API Hardening & Private Credentials](./server-management/05_GOOGLE_API_HARDENING.md)
-      * Dedicated OAuth Client ID setup, fixing URI mismatch errors, and daily limit matrix.
-  * [06: NFS and mDNS Resolution Recovery over Mesh Networks](./server-management/06_NFS_MDNS_MESH_RECOVERY.md)
-      * Fixing Stale Mount (`No such device`) errors caused by IP rotation in Mesh nodes using Avahi and nsswitch.
-
   * [01: Active and Isolated Network Discovery](./server-management/01_SERVER_DISCOVERY.md)
       * Methodologies for tracing target hardware over live subnets and unmanaged non-DHCP switch environments.
   * [02: iRMC Interface Access & Legacy Cipher Troubleshooting](./server-management/02_IRMC_TROUBLESHOOTING.md)
       * Bypassing modern router intercept vectors and tuning client-side TLS baselines for iRMC S2 chips.
   * [03: Hardened SSH Infrastructure](./server-management/03_HARDENED_SSH_ACCESS.md)
       * Transition protocols for asymmetric cryptographic validation, client alias profiles, and localized network firewalls.
-
+  * [04: Rclone Multi-Protocol Storage Servers](./server-management/04_RCLONE_SERVERS_SANDBOX.md)
+      * SQLite Alist purge, SFTP port isolation, and background system services configuration.
+  * [05: Google Drive API Hardening & Private Credentials](./server-management/05_GOOGLE_API_HARDENING.md)
+      * Dedicated OAuth Client ID setup, fixing URI mismatch errors, and daily limit matrix.
+  * [06: NFS and mDNS Resolution Recovery over Mesh Networks](./server-management/06_NFS_MDNS_MESH_RECOVERY.md)
+      * Fixing Stale Mount (`No such device`) errors caused by IP rotation in Mesh nodes using Avahi and nsswitch.
   * [07: Tailscale, Vaultwarden, and Podman Optimization](./server-management/07_TAILSCALE_VAULTWARDEN_PODMAN.md)
       * Optimization protocols for low-RAM machines.
+  
+  * [08_TAILSCALE_SERVE_TLS.md](./server-management/08_TAILSCALE_SERVE_TLS.md) 
+      * Native HTTPS reverse proxying and automated Let's Encrypt TLS termination using Tailscale Serve on low-resource hosts.
+
 ### Hardware Diagnostics & Recovery
 
   * [01: POST Fault Analysis and Power Subsystem Mapping](https://www.google.com/search?q=./hardware-diagnostics/01_POST_FAULT_ANALYSIS.md)
@@ -56,7 +58,6 @@ A technical record of system modifications and hardware-specific configurations 
       * Resolving missing kernel headers, dpkg package dependency deadlocks, and software display rendering fallbacks on GTX 1060.
 
 ### Software Management
-
   * [01: Flatpak Setup](./software-management/01_FLATPAK_SETUP.md)
       * Containerized application isolation, repository installation, and command alias mapping.
   * [02: Java Memory Allocation](./software-management/02_JAVA_MEMORY.md)
@@ -71,6 +72,15 @@ A technical record of system modifications and hardware-specific configurations 
       * Collection of standard productivity and development tools installed via apt.
   * [07: ModelSim ASE 20.1 Initialization & Scaling](./software-management/07_MODELSIM_UBUNTU_26.md)
       * Resolution for 32-bit shared library dependency failures and HiDPI/4K UI scaling using a nested Weston compositor.
+  * [08_SHOTCUT_HDR_10BIT_EXPORT.md](./software-management/08_SHOTCUT_HDR_10BIT_EXPORT.md)
+      * Shotcut 10-bit HLG HDR pipeline, AMD Vulkan tuning, and metadata remuxing.
+  * [09_DOCKGE_COMPOSE_DEPLOYMENT.md](./software-management/09_DOCKGE_COMPOSE_DEPLOYMENT.md) 
+      * Deployment of the lightweight Dockge Compose manager with daemon log-rotation and socket permissions.
+  * [10_HOMER_STATIC_DASHBOARD.md](./software-management/10_HOMER_STATIC_DASHBOARD.md) 
+      * Configuration of Homer static dashboard with containerized Nginx and YAML asset mapping.
+
+  * [11_LINKDING_BOOKMARKS_SQLITE.md](./software-management/11_LINKDING_BOOKMARKS_SQLITE.md) 
+      * Deployment of Linkding bookmark manager with SQLite storage and iOS client REST API configuration.
 
 ### Backup & Disaster Recovery
   * [01: Hardened Multipart Backup Configurations](./backup-operations/01_HARDENED_MULTIPART.md)
@@ -87,8 +97,7 @@ A technical record of system modifications and hardware-specific configurations 
       * Automated database dumping and source selection for containerized photo library preservation.  
   * [07: Hardened Direct-Stream Backups](./backup-operations/07_DIRECT_STREAM_BACKUPS.md)
       * Memory-efficient cloud streaming backups using rclone rcat and container pausing.
-  * [08_SHOTCUT_HDR_10BIT_EXPORT.md](./software-management/08_SHOTCUT_HDR_10BIT_EXPORT.md)
-      * Shotcut 10-bit HLG HDR pipeline, AMD Vulkan tuning, and metadata remuxing.
+
       
 ### iOS Device Management
   * [01_SIDESTORE_LIVECONTAINER.md](./ios-management/01_SIDESTORE_LIVECONTAINER.md)
