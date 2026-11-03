@@ -46,9 +46,10 @@ A technical record of system modifications and hardware-specific configurations 
       * Fixing Stale Mount (`No such device`) errors caused by IP rotation in Mesh nodes using Avahi and nsswitch.
   * [07: Tailscale, Vaultwarden, and Podman Optimization](./server-management/07_TAILSCALE_VAULTWARDEN_PODMAN.md)
       * Optimization protocols for low-RAM machines.
-  
   * [08_TAILSCALE_SERVE_TLS.md](./server-management/08_TAILSCALE_SERVE_TLS.md) 
       * Native HTTPS reverse proxying and automated Let's Encrypt TLS termination using Tailscale Serve on low-resource hosts.
+  * [09_SSH_KEY_AUTHENTICATION_HARDENING.md](server-management/09_SSH_KEY_AUTHENTICATION_HARDENING.md) 
+      * Enforce Ed25519 public key authentication, bypass MaxAuthTries agent limits, and disable password-based SSH access.
 
 ### Hardware Diagnostics & Recovery
 
