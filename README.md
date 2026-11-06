@@ -50,6 +50,8 @@ A technical record of system modifications and hardware-specific configurations 
       * Native HTTPS reverse proxying and automated Let's Encrypt TLS termination using Tailscale Serve on low-resource hosts.
   * [09_SSH_KEY_AUTHENTICATION_HARDENING.md](server-management/09_SSH_KEY_AUTHENTICATION_HARDENING.md) 
       * Enforce Ed25519 public key authentication, bypass MaxAuthTries agent limits, and disable password-based SSH access.
+  * [10_HP_T630_LUKS_TPM2_HARDENING.md](./server-management/10_HP_T630_LUKS_TPM2_HARDENING.md)
+      * Full-disk LUKS2 auto-unlock via TPM 2.0 with Clevis, GRUB PBKDF2 authentication, and HP T630 firmware hardening.
 
 ### Hardware Diagnostics & Recovery
 
