@@ -52,6 +52,8 @@ A technical record of system modifications and hardware-specific configurations 
       * Enforce Ed25519 public key authentication, bypass MaxAuthTries agent limits, and disable password-based SSH access.
   * [10_HP_T630_LUKS_TPM2_HARDENING.md](./server-management/10_HP_T630_LUKS_TPM2_HARDENING.md)
       * Full-disk LUKS2 auto-unlock via TPM 2.0 with Clevis, GRUB PBKDF2 authentication, and HP T630 firmware hardening.
+  * [11_ENCRYPTED_USB_STORAGE_POWERSAVE.md](./server-management/11_ENCRYPTED_USB_STORAGE_POWERSAVE.md)
+      * Secondary LUKS2 USB storage auto-mount using root keyfiles, USB autosuspend, and ext4 commit wear reduction.
 
 ### Hardware Diagnostics & Recovery
 
