@@ -86,6 +86,8 @@ A technical record of system modifications and hardware-specific configurations 
 
   * [11_LINKDING_BOOKMARKS_SQLITE.md](./software-management/11_LINKDING_BOOKMARKS_SQLITE.md) 
       * Deployment of Linkding bookmark manager with SQLite storage and iOS client REST API configuration.
+  * [12_NAVIDROME_DOCKER_STREAMING.md](./software-management/12_NAVIDROME_DOCKER_STREAMING.md)
+      * Deployment of Navidrome music streaming server with decoupled SSD SQLite storage and Tailscale HTTPS exposure.
 
 ### Backup & Disaster Recovery
   * [01: Hardened Multipart Backup Configurations](./backup-operations/01_HARDENED_MULTIPART.md)
