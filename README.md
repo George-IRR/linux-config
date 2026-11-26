@@ -54,6 +54,8 @@ A technical record of system modifications and hardware-specific configurations 
       * Full-disk LUKS2 auto-unlock via TPM 2.0 with Clevis, GRUB PBKDF2 authentication, and HP T630 firmware hardening.
   * [11_ENCRYPTED_USB_STORAGE_POWERSAVE.md](./server-management/11_ENCRYPTED_USB_STORAGE_POWERSAVE.md)
       * Secondary LUKS2 USB storage auto-mount using root keyfiles, USB autosuspend, and ext4 commit wear reduction.
+  * [12_WOL_REMOTE_LUKS_DROPBEAR_UNLOCK.md](./server-management/12_WOL_REMOTE_LUKS_DROPBEAR_UNLOCK.md)
+      * Remote Wake-on-LAN trigger from a LAN bastion host paired with pre-boot LUKS2 decryption over SSH via `dropbear-initramfs`.
 
 ### Hardware Diagnostics & Recovery
 
