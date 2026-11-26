@@ -48,7 +48,7 @@ A technical record of system modifications and hardware-specific configurations 
       * Optimization protocols for low-RAM machines.
   * [08_TAILSCALE_SERVE_TLS.md](./server-management/08_TAILSCALE_SERVE_TLS.md) 
       * Native HTTPS reverse proxying and automated Let's Encrypt TLS termination using Tailscale Serve on low-resource hosts.
-  * [09_SSH_KEY_AUTHENTICATION_HARDENING.md](server-management/09_SSH_KEY_AUTHENTICATION_HARDENING.md) 
+  * [09_SSH_TOO_MANY_AUTHENTICATION_FAILURES_ED25519.md](./server-management/09_SSH_TOO_MANY_AUTHENTICATION_FAILURES_ED25519.md) 
       * Enforce Ed25519 public key authentication, bypass MaxAuthTries agent limits, and disable password-based SSH access.
   * [10_HP_T630_LUKS_TPM2_HARDENING.md](./server-management/10_HP_T630_LUKS_TPM2_HARDENING.md)
       * Full-disk LUKS2 auto-unlock via TPM 2.0 with Clevis, GRUB PBKDF2 authentication, and HP T630 firmware hardening.
@@ -59,9 +59,9 @@ A technical record of system modifications and hardware-specific configurations 
 
 ### Hardware Diagnostics & Recovery
 
-  * [01: POST Fault Analysis and Power Subsystem Mapping](https://www.google.com/search?q=./hardware-diagnostics/01_POST_FAULT_ANALYSIS.md)
+  * [01: POST Fault Analysis and Power Subsystem Mapping](./hardware-diagnostics/01_POST_FAULT_ANALYSIS.md)
       * Decoupling critical POST code 0x28, memory subsystem isolation, and tracking power supply thermal cascading events.
-  * [02: NVIDIA DKMS Kernel Build Failure & Resolution Fallback](https://www.google.com/search?q=./hardware-diagnostics/02_NVIDIA_DKMS_KERNEL_FAILURE.md)
+  * [02: NVIDIA DKMS Kernel Build Failure & Resolution Fallback](./hardware-diagnostics/02_NVIDIA_DKMS_KERNEL_FAILURE.md)
       * Resolving missing kernel headers, dpkg package dependency deadlocks, and software display rendering fallbacks on GTX 1060.
 
 ### Software Management
@@ -115,4 +115,4 @@ A technical record of system modifications and hardware-specific configurations 
 
 ## **Contribution Standards:** 
 
-### Refer to [`CONTRIBUTING.md`](CONTRIBUTING.md) for runbook formatting, privacy sanitization, and indexing protocols.
+### Refer to [`CONTRIBUTING.MD`](CONTRIBUTING.MD) for runbook formatting, privacy sanitization, and indexing protocols.
