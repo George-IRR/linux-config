@@ -64,7 +64,11 @@ New runbooks should be scaffolded via the root automated generator:
 
 Any new guide added to a subdirectory must be registered in the root `README.md` index under its corresponding section:
 
-* Format: `* [`.md`](<category>/<FILENAME>.md) - <Single scope sentence summarizing technical>.`
+* Format:
+  ```markdown
+    * [XX_FILENAME.md](./<category>/XX_FILENAME.md)
+        * <Single scope sentence summarizing technical scope.>
+  ```
 * Maintain sequential index order matching the file numbers.
 
 ---
